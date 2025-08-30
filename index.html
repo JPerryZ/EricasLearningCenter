@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Erica's Learning and Childcare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="stylesheet" href="style.css"/> 
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#"><img src="Childcare.jpg" alt= "Childcare.jpg" height="36"/></a>
+    <nav id="siteNav" class="site-nav" aria-label="Main">
+      <a href="#services">Ages Served</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" role="region" aria-label="Hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1>Erica's Learning and Childcare Center</h1>
+        <h2>Creating unforgettable moments and memories for children and families.</h2>
+        <a class="btn btn--primary" href="#contact">Contact</a>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section__title">Ages Served:</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Infant</h3>
+            <p>(6 weeks - 17 months)</p>
+          </article>
+          <article class="card">
+            <h3>Toddler</h3>
+            <p>(18 months - 3 years)</p>
+          </article>
+          <article class="card">
+            <h3>Preschool</h3>
+            <p>(3 - 5 years)</p>
+          </article>
+          <article class="card"
+            <h3>School-Aged</h3>
+            <p>(5 years and up)</p>
+          </article>
+        </div>
+
+        <details class="services__all">
+          <summary>Hours of Operation</summary>
+          <ul class="list">
+            <li>-MONDAY   : 06:00AM - MIDNIGHT</li>
+            <li>-TUESDAY  : 06:00AM - MIDNIGHT</li>
+            <li>-WEDNESDAY: 06:00AM - MIDNIGHT</li>
+            <li>-THURSDAY : 06:00AM - MIDNIGHT</li>
+            <li>-FRIDAY   : CLOSED</li>
+            <li>-SATURDAY : CLOSED</li>
+            <li>-SUNDAY   : CLOSED</li>
+            <li>(Overnight care available at the discretion of provider)</li>
+
+
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section id="about" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">About Us</h2>
+        <p>ERICA'S LEARNING AND CHILDCARE is a Licensed Type A Family Child Care Home in BEREA OH. 
+          <p>Provider participates in a subsidized child care program.</p>
+       <!-- <p>Provider License Number: 2210025282 (Current Issue Date: 2021-12-23)</p> -->
+        <p>SILVER 'Step Up to Quality' Rating (2)</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section__title">Get In Touch</h2>
+        <!-- Netlify Forms enabled -->
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form" id="contactForm">
+          <input type="hidden" name="form-name" value="contact"/>
+          <p class="hidden">
+            <label>Contact Us: <input name="bot-field"/></label>
+          </p>
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your Name" required/>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your event..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary">Send Message</button>
+          <p id="formMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>Erica's Learning and Childcare</strong><br/>
+        706 Prospect Street<br/>
+        <br/>Berea, OH 44017<br/>
+        <a href="Ecurtis122.ec@gmail.com">Ecurtis122.ec@gmail.com</a> · (440) 376-4376
+      </div>
+      <!-- 
+      <div class="social">
+        <a href="#" aria-label="Instagram">@willowpineevents</a>
+        <a href="#" aria-label="Pinterest">@willowpineevents</a>
+        <a href="#" aria-label="Facebook">Willow & Pine Events</a>
+      </div>
+    -->
+    </div>
+  </footer>
+
+  <script src= "./script.js" defer></script>
+</body>
+</html>
+
+
