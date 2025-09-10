@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urls xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jperryz.github.io/EricasLearningCenter/</loc>
+    <lsmod>2025-09-09</lsmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://jperryz.github.io/EricasLearningCenter/about</loc>
+    <lsmod>2025-09-09</lsmod>
+    <priority>0.8</priority>
+  </url>
+</urls>
