@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urls xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jperryz.github.io/EricasLearningCenter/</loc>
+    <loc>https://EricasLearningCenter.nenzee.com/</loc>
     <lsmod>2025-09-09</lsmod>
+    <priority>1</priority>
+  </url>
+
+  <url>
+    <loc>https://EricasLearningCenter.nenzee.com/services</loc>
+    <lsmod>2025-0</lsmod>
     <priority>0.5</priority>
   </url>
+
   <url>
-    <loc>https://jperryz.github.io/EricasLearningCenter/about</loc>
-    <lsmod>2025-09-09</lsmod>
+    <loc>https://EricasLearningCenter.nenzee.com/contact</loc>
+    <lsmod>2025-0</lsmod>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://EricasLearningCenter.nenzee.com/about</loc>
+    <lsmod>2025-0</lsmod>
     <priority>0.5</priority>
   </url>
 </urls>
