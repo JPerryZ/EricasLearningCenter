@@ -6,7 +6,7 @@
     <priority>1</priority>
   </url>
 
- <!-- <url>
+<url>
     <loc>https://EricasLearningCenter.nenzee.com/services</loc>
     <lsmod>2025-0</lsmod>
     <priority>0.5</priority>
@@ -24,4 +24,3 @@
     <priority>0.5</priority>
   </url>
 </urls>
--->
